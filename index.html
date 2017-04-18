@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta property="og:title" content="色んなオブジェクトの影"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kzkponkotu.github.io/eiani_shadow/" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/kzkponkotu/portfolio/gh-pages/img/ogp/1.png"/>
+    <meta property="og:description" content="映像アニメーションの講義で紹介された動画を見て作りました。" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@kzk_ponkotu">
+    <meta name="twitter:title" content="色んなオブジェクトの影">
+    <meta name="twitter:description" content="映像アニメーションの講義で紹介された動画を見て作りました。">
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/kzkponkotu/portfolio/gh-pages/img/ogp/1.png"
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | eiani_shadow</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/eiani_shadow.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 640px; height: 360px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">eiani</div>
+      </div>
+    </div>
+  </body>
+</html>

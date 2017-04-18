@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 1073741824,
+"dataUrl": "eiani_shadow.data.unityweb",
+"asmCodeUrl": "eiani_shadow.asm.code.unityweb",
+"asmMemoryUrl": "eiani_shadow.asm.memory.unityweb",
+"asmFrameworkUrl": "eiani_shadow.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
